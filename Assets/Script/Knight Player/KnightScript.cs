@@ -48,7 +48,7 @@ public class MovingScript : MonoBehaviour
  
         if(Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
-            rb.AddForce(new Vector2(0,jumpPower), ForceMode2D.Force);
+            rb.AddForce(new Vector2(0,jumpPower), ForceMode2D.Impulse);
         }
     }
 
