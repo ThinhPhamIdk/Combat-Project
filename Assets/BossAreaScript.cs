@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossAreaScript : MonoBehaviour
 {
     
-    bool playerInArea = false;
+    public bool playerInArea = false;
     public GameObject boss;
     // public BoxCollider2D coll;
 
